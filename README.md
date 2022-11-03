@@ -19,3 +19,6 @@ Basicamente los procedimientos que tiene que hacer el leector para correr el pro
 
  2) Buscar que tipo de bd se va ocupar
 investigar sobre NPM - mysql con nodejs
+
+a tener en cuenta 
+https://www.neoguias.com/como-conectarse-a-mysql-usando-node-js/
