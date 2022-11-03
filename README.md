@@ -11,6 +11,7 @@ Basicamente los procedimientos que tiene que hacer el leector para correr el pro
 -js
 -node
 -bd
+-lluvia de preguntas y seleccionar 20
 
 1) Como hacer funcionar JavaScripts en vs code 
  https://www.hmablogs.com/how-to-run-javascript-program-in-visual-studio-code/  link 1
