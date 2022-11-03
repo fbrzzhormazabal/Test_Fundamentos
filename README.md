@@ -26,3 +26,5 @@ https://www.youtube.com/watch?v=27JCqmykNdc
 
 -- https://www.youtube.com/playlist?list=PLrAw40DbN0l3ZY24DEsp66_jllaWkJaIg
 -- https://www.youtube.com/watch?v=U5C_VbKCaIc
+-- https://www.npmjs.com/package/database-js
+-- https://www.youtube.com/watch?v=dKs3qY1aOq8
