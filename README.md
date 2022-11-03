@@ -22,3 +22,6 @@ investigar sobre NPM - mysql con nodejs
 
 a tener en cuenta 
 https://www.neoguias.com/como-conectarse-a-mysql-usando-node-js/
+https://www.youtube.com/watch?v=27JCqmykNdc
+
+-- https://www.youtube.com/playlist?list=PLrAw40DbN0l3ZY24DEsp66_jllaWkJaIg
