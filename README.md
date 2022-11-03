@@ -21,6 +21,7 @@ ejemplo ---- Debemos mejorar estoy y deajrlo bien explicado y presentado con sus
  https://www.youtube.com/watch?v=bEIkw5dG-E4&t=1s  link 2
 
  2) Buscar que tipo de bd se va ocupar
+ ventajas y desvenjaas de mysql
 investigar sobre NPM - mysql con nodejs
 
 a tener en cuenta 
