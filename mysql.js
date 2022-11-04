@@ -13,4 +13,12 @@ conection.connect((err) =>{
     console.log('La conexion funciona')
 })
 
+
+//Ejemplo de consulta
+conection.query('SELECT * from Users', (err, rows) =>{
+    if (err) throw err
+    console.log('Los datos de la tabla son estos: ')
+    console.log(rows)
+})
+
 conection.end()
