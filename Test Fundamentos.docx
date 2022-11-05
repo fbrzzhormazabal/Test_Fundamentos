@@ -6,13 +6,32 @@ Portada
 
 Introducción
 
+    En el presente informe daremos a conocer las bases o implicancias que tiene uno de los lenguajes más llamativos 
+    visualmente para los usuarios al momento de interactuar con una pagina web, razón por la cual fue principalmente creado,
+    por consiguiente este lenguaje fue llamado "JavaScript" como su nombre indica funciona a traves de variados scripts 
+    que trabajan en compañia de un servidor para mejorar la dinamica y elegancia al momento de la interacción entre 
+    Usuario/Host.
+
+    Por otra parte tambien hablaremos sobre que beneficios o mejoras trajo a nuestras vidas la aparición de este
+    llamativo lenguaje y si pensabamos que estos scripts solo eran utilizados o encasillados en el ambiente de Diseño Web
+    estamos muy equivocados ya que a traves de su evolucion en el paso de los años ha logrado ser implementado desde
+    aplicaciones moviles hasta interfaces de cohetes espaciales, sin embargo no mostraremos solo lo bien que se 
+    consolida este lenguaje en compañia de una interfaz ya que tambien analizaremos sus puntos mas bajos en el 
+    mercado y por el cual es punto de muchas criticas por parte de algunos desarrolladores.
+
 Desarrollo
 
     ¿Qué es Javascript?
 
-    Javascript en general es un robusto lenguaje de programación que hace acompañamiento a el ya conocido HTML, otorgando
-    un uso más interactivo y dinámico la interacción con la web, el principal desarrollador de este lenguaje fue el cofundador
-    del proyecto Mozilla, Brendan Eich.
+    Javascript en general es un lenguaje de programación que hace acompañamiento a el ya conocido HTML, otorgando
+    un uso más interactivo y dinámico al momento de navegar en la World Wide Web, el principal desarrollador de este 
+    lenguaje fue el cofundador del proyecto Mozilla, Brendan Eich, quien fue el encargado de llevar a cabo esta nueva rama
+    de comandos para ser utilizados en un navegador web, especificamente en 1995 en donde la empresa "Netscape" 
+    contrato a Brendan dandole solamente 10 dias para la realizacion de un lenguaje de programación funcional, Eich ante 
+    esta solicitud ademas tuvo ciertas limitantes por parte de la organización, entre estas se encuentra la que va mas
+    acorde con su nombre ya que se le pidio que le hiciese competencia al gigante de Java que crecia exponencialmente en
+    estos tiempos, es por esto que al ser una forma mas ligera y sencilla de su contraparte fue nombrado como JavaScript
+
 
     Ventajas de Javascript
 
@@ -24,4 +43,7 @@ Conclusión
 
 Webgrafía
 
-https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics - ¿Que es JavaScript?
+https://www.um.es/docencia/barzana/DIVULGACION/INFORMATICA/Javascript-diez-dias.html - ¿Que es JavaScript?
+https://aws.amazon.com/es/what-is/javascript/ - ¿Que es JavaScript?
+https://blog.hubspot.es/website/que-es-javascript - ¿Ques es JavaScript?
