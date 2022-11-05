@@ -16,8 +16,8 @@ conection.connect((err) =>{
 
 //Ejemplo de consulta
 //Mostrando los usuarios
-
-/*conection.query('SELECT * from Users', (err, rows) =>{
+/*
+conection.query('SELECT * from Users', (err, rows) =>{
     if (err) throw err
     console.log('Los datos de la tabla son estos: ')
     console.log(rows)
