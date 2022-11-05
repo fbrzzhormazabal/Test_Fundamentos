@@ -30,20 +30,63 @@ Desarrollo
     contrato a Brendan dandole solamente 10 dias para la realizacion de un lenguaje de programación funcional, Eich ante 
     esta solicitud ademas tuvo ciertas limitantes por parte de la organización, entre estas se encuentra la que va mas
     acorde con su nombre ya que se le pidio que le hiciese competencia al gigante de Java que crecia exponencialmente en
-    estos tiempos, es por esto que al ser una forma mas ligera y sencilla de su contraparte fue nombrado como JavaScript
+    estos tiempos, es por esto que al ser una forma mas ligera y sencilla de su contraparte fue nombrado como JavaScript.
 
+    Si quisieramos hacer un deglose de como Brendan se baso para crear este novedoso lenguaje de programación comenzariamos
+    principalmente por su base la cual toma la sintaxis del lenguaje C, luego toma los patrones de SmallTalk y por ultimo
+    la simetria entre datos y codigo de LISB. Todo esto para finalmente JavaScript con el paso del tiempo evolucionase
+    a lo que abarca a día de hoy, de pasar a ser dependiente de un servidor web a hacer interfaces graficas de escritorio
+    y aplicaciones moviles, independizandose por fin totalmente de HTML.
 
     Ventajas de Javascript
 
-    desventajas
+    Dentro de los beneficios que podemos tomar en cuenta al momento de querer utilizar JavaScript son:
 
-    base de datos de utilizadas
+    ~Facil de aprender y utilizar: Como la sintaxis de este lenguaje esta basada en Java resulta muy facil de aprender y
+    codificar.
+
+    ~Independencia de plataformas: La tecnologia de JavaScript permite que sea utilizable en muchos marcos y lenguajes
+    de desarrollo web, logrando ejecutar este lenguaje en cualquier maquina.
+
+    ~Reduzca la carga del servidor: Este lenguaje es capaz de reducir la comunicacion entre Cliente/Host, ya que por
+    ejemplo si se rellena un campo de 10 digitos, lo que realiza JavaScript es una comprobacion en el momento, sin 
+    necesidad de que se recargue la pagina o se contacte con el servidor para procesar los datos.
+
+    ~Mejora la interfaz de usuario: Como se ha nombrado todo lo anterior no podia faltar el mayor de los beneficios, 
+    mejora los tiempos de comunicacion entre Cliente/Host a traves de interacciones dinamicas y diseños mas sofisticados
+    generando que todo en general sea mas eficaz.
+
+    ~Simultaneidad de procesos: JavaScript permite ejecutar una gran variedad de conjuntos diferentes de intrucciones de
+    manera paralela.
+         
+    Desventajas de JavaScript
+
+    Por otra parte tambien tomaremos en cuenta los puntos negativos ya que este lenguaje a pesar de ser un buen ejemplar
+    en su area aun asi no es perfecto, entre sus desventajas encontramos:
+
+    ~Poca seguridad de codificado: La codificacion de este lenguaje en su FrontEnd pueden ser leidos por cualquier 
+    usuario.
+
+    ~Usuabilidad del cliente: JavaScript puede ser desactivado por el usuario.
+
+    ~Scripts limitados: No todo se puede realizar con este lenguaje, es por esto que la mayoria de veces debe ser 
+    complementado con otros lenguajes mas evolucionados y seguros.
+
+    BBDD utilizada
 
 Conclusión
+
+En sintesis, luego de analizar todo lo que abarca este lenguaje de programación se logra apreciar el gran espacio de 
+aplicacion que tiene JavaScript, el cual apesar de tener ciertas desventajas, con el paso del tiempo a logrado
+acoplarse y adaptarse de la mejor manera logrando asi su propia forma de interactuar con el usuario, por otra parte
+se destaca lo amigable que es con el cliente a traves de sus script aplicados en las interfaces y los beneficios que 
+entrega en el ambito de la eficacia. Finalmente lo que mas recordaremos es como Brendan Eich logro crear un lenguaje
+de programacion en tan solo 10 dias, logrando un exito que evolucionaria a traves de los años.
 
 Webgrafía
 
 https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics - ¿Que es JavaScript?
 https://www.um.es/docencia/barzana/DIVULGACION/INFORMATICA/Javascript-diez-dias.html - ¿Que es JavaScript?
 https://aws.amazon.com/es/what-is/javascript/ - ¿Que es JavaScript?
-https://blog.hubspot.es/website/que-es-javascript - ¿Ques es JavaScript?
+https://blog.hubspot.es/website/que-es-javascript - ¿Que es JavaScript?
+https://www.nextu.com/blog/conoce-las-ventajas-y-desventajas-de-javascript/#:~:text=Tiende%20a%20introducir%20gran%20cantidad,los%20navegadores%20de%20manera%20uniforme. - Ventajas y Desventajas
