@@ -21,7 +21,12 @@ Introducción
 
 Desarrollo
 
+
+     Historia  de Javascrip 
+     
+
     ¿Qué es Javascript?
+    
 
     Javascript en general es un lenguaje de programación que hace acompañamiento a el ya conocido HTML, otorgando
     un uso más interactivo y dinámico al momento de navegar en la World Wide Web, el principal desarrollador de este 
@@ -58,7 +63,14 @@ Desarrollo
 
     ~Simultaneidad de procesos: JavaScript permite ejecutar una gran variedad de conjuntos diferentes de intrucciones de
     manera paralela.
-         
+    
+    Versatalidad  :  Javascrip es un estandar en la industria de la web , por tanto, se puede integrar con otras tegnologias.Por esta razon,
+    el codigo se puede  insertar en cuaalquier pagina independiente de la extension del archivo, es decir , añadir scrips en 
+    archivos JPS,PHP,PERL.
+    Actializaciones: El equipo de desarrol  javascrip  y ECMA internacional  actualizan y crean continuamente frameworks
+    y librerias, lo que garantiza su relevancia dentro del sector.
+    
+    
     Desventajas de JavaScript
 
     Por otra parte tambien tomaremos en cuenta los puntos negativos ya que este lenguaje a pesar de ser un buen ejemplar
