@@ -4,71 +4,32 @@ Portada
 
 Índice
 
-INDICE
+    1.-Introducción
+    2.-Deglosando el Lenguaje "JavaScript"
+    2.1-¿Qué es JavaScript?
+    2.2-Ventajas de JavaScript	
+    2.3-Desventajas de JavaScript
+    2.3-Uso de lenguaje de programacion JavaScript en la vida diaria
+    2.4-BBDD utilizada
+    3.-Conclusión
+    4.-Webgrafía
 
-INDICE
-INTRODUCCIÓN	3
-2.DESARROLLO	4
-2.1 HISTORIA DEL LENGUAJE DE PROGRAMACION JAVASCRIP	4
-2.2VENTAJAS Y DESVENTAJAS DEL LENGUAJE JAVASCRIP	5
-2.2.1 VENTAJAS DEl LENGUAJE JAVASCRIP	5
-2.2.2 DESVENTAJAS DEL LENGUAJE JAVA SCRIP	6
-2.3 USO EN LA VIDA REAL DEL LENGUAJE JAVASCRIP	7
-Anexos	8
-WEBGRAFIA	9
-TABLA DE REVISIONES	10
-ACTA	1
+1. Introducción
 
+    En el presente informe daremos a conocer las bases o implicancias que tiene uno de los lenguajes más llamativos 
+    visualmente para los usuarios al momento de interactuar con una pagina web, razón por la cual fue principalmente creado,
+    por consiguiente este lenguaje fue llamado "JavaScript" como su nombre indica funciona a traves de variados scripts 
+    que trabajan en compañia de un servidor para mejorar la dinamica y elegancia al momento de la interacción entre 
+    Usuario/Host.
 
-
-
-
-
-
-Introducción
-
-    Introducción
-    En el presente informe esta realizado con el propósito de ejecutar una documentación completa y detallada del lenguaje de
-    programacion Javascrip, JS es un lenguaje de programacion interpretado que no requiere compilar, este lenguaje es utilizado
-    principalmente para ejecutar acciones por lado del cliente (front-end) aunque existen formas de utilizar javascrip por parte
-     del servidor.
-    En el presente informe daremos a conocer las bases o implicaciones que tiene uno de los lenguajes más llamativos
-    Por otra parte tambien hablaremos sobre que beneficios o mejoras estrenadas a nuestras vidas la aparicion de este
-    lenguaje llamativo y si esperabamos que estos scripts solo fueran utilizados o encasillados en el ambiente de Diseño Web
+    Por otra parte tambien hablaremos sobre que beneficios o mejoras trajo a nuestras vidas la aparición de este
+    llamativo lenguaje y si pensabamos que estos scripts solo eran utilizados o encasillados en el ambiente de Diseño Web
     estamos muy equivocados ya que a traves de su evolucion en el paso de los años ha logrado ser implementado desde
-    aplicaciones moviles hasta interfaces de cohetes espaciales, sin embargo no mostraremos solo lo bien que se
-    consolida este lenguaje en compañia de una interfaz ya que tambien analizaremos sus puntos mas bajos en el
-    mercado y por el cual es el punto de muchas criticas por parte de algunos desarrolladores.  
-    El contenido de este informe contendra diversos tipos de informacion recopilada a traves de un analisis profundo
-    de dicho programa, en el cual encontraremos la historia del lenguaje de programacion,las ventajas y desvenjas del lenguaje
-    javascrip, el uso en la vida diaria, la base de datos, caracteristicas de la base de datos, anexos, webgrafia y conclusion.
+    aplicaciones moviles hasta interfaces de cohetes espaciales, sin embargo no mostraremos solo lo bien que se 
+    consolida este lenguaje en compañia de una interfaz ya que tambien analizaremos sus puntos mas bajos en el 
+    mercado y por el cual es punto de muchas criticas por parte de algunos desarrolladores.
     
-    
-Desarrollo
-
-
-    Historia del lenguaje Javascript
-     
-     Brendan Eich quien en la decada de los 90 creo el nuevo lenguaje de programacion Javascrip, el lenguaje de programacion
-     quien cambio la web, pensado para ser interpretado directamente en el navegador, y escrito tanto para desarrolladores de
-     software como para diseñadores. Eich , que ahora es director ejecutivo navegador Brave, empezo sus años universitarios
-     interesado en la fisica y matematicas.Eich en ese momento estaba en Silicon Valley, y alli todo giraba entorno a los
-     ordenadores , el sentia que la fisica se habia quedado estancada tras el programa espacial, asi que acabo seducido por
-     la computación.
-     El surgimiento del lenguaje nacio a partir de un navegador que actualmente no existe Netscape, en esa decada
-     se vivio verdaderamente un boom en la tegnologia,el internet cobro protagonismo a nivel mundial la humanidad inicio formalmente
-     su relacion con la computadora.
-     El lenguaje Javascrip permitio a los programadores cambiar de forma dinamica el contenido de una pagina web que habia sido
-     hasta el momento estatico.Esta tegnologia permitio un nuevo enfoque para el desarrollo de aplicaciones web eran, y aun hoy,
-     son muchas mas interactivas para los usuarios.
-     Pero sus dominios no acaban en la ventana del navegador. Javascript se ha derramado en nuestras vidas , integrándose en el
-     codigo que controla robots, neveras, televisores y hasta bombillas.
-     
-     
-     
-
-    ¿Qué es Javascript?
-    
+2. ¿Qué es Javascript?
 
     Javascript en general es un lenguaje de programación que hace acompañamiento a el ya conocido HTML, otorgando
     un uso más interactivo y dinámico al momento de navegar en la World Wide Web, el principal desarrollador de este 
@@ -85,7 +46,7 @@ Desarrollo
     a lo que abarca a día de hoy, de pasar a ser dependiente de un servidor web a hacer interfaces graficas de escritorio
     y aplicaciones moviles, independizandose por fin totalmente de HTML.
 
-    Ventajas de Javascript
+2.1 Ventajas de Javascript
 
     Dentro de los beneficios que podemos tomar en cuenta al momento de querer utilizar JavaScript son:
 
@@ -106,14 +67,14 @@ Desarrollo
     ~Simultaneidad de procesos: JavaScript permite ejecutar una gran variedad de conjuntos diferentes de intrucciones de
     manera paralela.
     
-    Versatalidad  :  Javascrip es un estandar en la industria de la web , por tanto, se puede integrar con otras tegnologias.Por esta razon,
-    el codigo se puede  insertar en cuaalquier pagina independiente de la extension del archivo, es decir , añadir scrips en 
-    archivos JPS,PHP,PERL.
-    Actializaciones: El equipo de desarrol  javascrip  y ECMA internacional  actualizan y crean continuamente frameworks
+    ~Versatilidad: Javascript es un estandar en la industria de la web , por tanto, se puede integrar con otras 
+    tecnologias. Por esta razon, el codigo se puede  insertar en cualquier pagina independiente de la extension del 
+    archivo, es decir , añadir scripts en archivos JPS,PHP,PERL.
+
+    ~Contemporanéo: El equipo de desarrollo  JavaScript  y ECMA internacional  actualizan y crean continuamente frameworks
     y librerias, lo que garantiza su relevancia dentro del sector.
     
-    
-    Desventajas de JavaScript
+2.2 Desventajas de JavaScript
 
     Por otra parte tambien tomaremos en cuenta los puntos negativos ya que este lenguaje a pesar de ser un buen ejemplar
     en su area aun asi no es perfecto, entre sus desventajas encontramos:
@@ -127,44 +88,44 @@ Desarrollo
     complementado con otros lenguajes mas evolucionados y seguros.
 
 
-    Uso de lenguaje de programacion Javascrip en la vida diaria
+2.3 Uso de lenguaje de programacion JavaScript en la vida diaria
     
-    Javascrip es el lenguaje de programación que se utiliza para añadir características interactivas al sitio web
-    por ejemplo, juegos, eventos, que ocurren cuando los botones son precionados o los datos son introducidos
-    en formularios,efectos de estilo dinamicos,animacion y mucho mas.
-    En primer lugar tenemos aplicaciones web interactivas para el usuario, como gmail, twitter, facebook, Outlook,
-    paypal, trello, walmart, linkedin, etc.
-    Segundo lugar tenemos presentaciones interactivas como slides,revealsjs,mooonfamer,etc.
-    Tercer lugar tenemos los juegos como pacman,bomberman, real world razer, brickslayer,y asi odemos seguir
-    continuando con una lista infinita de elementos que es capaz de crear javascrip.
+    Javascript es el lenguaje de programación que se utiliza para añadir características interactivas a un sitio web,
+    por ejemplo efectos de estilo dinamicos, animacion, juegos o eventos que ocurren cuando los botones son presionados o 
+    cuando los datos son introducidos en formularios, y mucho mas.
+
+    Dentro de las formas en que este lenguaje es utilizado en la vida real existen ciertos tipos:
+
+    En primer lugar tenemos aplicaciones web interactivas para el usuario, como Gmail, Twitter, Facebook, Outlook,
+    Paypal, Trello, Walmart, LinkedIn, etc. En segundo lugar tenemos presentaciones interactivas como slides, revealsjs,
+    mooonfamer,etc. Y por ultimo tenemos los juegos como pacman, bomberman, real world razer, brickslayer,y asi podemos
+    seguir continuando con una lista infinita de elementos que es capaz de crear JavaScript.
     
-    
-    
-       BBDD utilizada
+2.4 BBDD utilizada
 
-Conclusión
+3. Conclusión
 
-En sintesis, luego de analizar todo lo que abarca este lenguaje de programación se logra apreciar el gran espacio de 
-aplicacion que tiene JavaScript, el cual apesar de tener ciertas desventajas, con el paso del tiempo a logrado
-acoplarse y adaptarse de la mejor manera logrando asi su propia forma de interactuar con el usuario, por otra parte
-se destaca lo amigable que es con el cliente a traves de sus script aplicados en las interfaces y los beneficios que 
-entrega en el ambito de la eficacia. Finalmente lo que mas recordaremos es como Brendan Eich logro crear un lenguaje
-de programacion en tan solo 10 dias, logrando un exito que evolucionaria a traves de los años.
+    En sintesis, luego de analizar todo lo que abarca este lenguaje de programación se logra apreciar el gran espacio de 
+    aplicacion que tiene JavaScript, el cual apesar de tener ciertas desventajas, con el paso del tiempo a logrado
+    acoplarse y adaptarse de la mejor manera logrando asi su propia forma de interactuar con el usuario, por otra parte
+    se destaca lo amigable que es con el cliente a traves de sus script aplicados en las interfaces y los beneficios que 
+    entrega en el ambito de la eficacia. Finalmente lo que mas recordaremos es como Brendan Eich logro crear un lenguaje
+    de programacion en tan solo 10 dias, logrando un exito que evolucionaria a traves de los años.
 
-Webgrafía
+4. Webgrafía
 
-https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics - ¿Que es JavaScript?
-https://www.um.es/docencia/barzana/DIVULGACION/INFORMATICA/Javascript-diez-dias.html - ¿Que es JavaScript?
-https://aws.amazon.com/es/what-is/javascript/ - ¿Que es JavaScript?
-https://blog.hubspot.es/website/que-es-javascript - ¿Que es JavaScript?
-https://www.nextu.com/blog/conoce-las-ventajas-y-desventajas-de-javascript/#:~:text=Tiende%20a%20introducir%20gran%20cantidad,los%20navegadores%20de%20manera%20uniforme. - Ventajas y Desventajas
-https://elpais.com/tecnologia/2020-08-28/el-lenguaje-de-programacion-que-cambio-la-web-y-tu-vida-cumple-25-anos.html
-https://aws.amazon.com/es/what-is/javascript/
-https://keepcoding.io/nuestros-bootcamps/full-stack-web-bootcamp/
-https://utel.mx/blog/menu-profesional/historia-del-lenguaje-javascript/
-https://blogueropro.com/blog/ventajas-y-desventajas-de-usar-javascript-en-la-programacion-web
-https://www.freecodecamp.org/espanol/news/ventajas-y-desventajas-de-javascript/
-https://www.hostinger.es/tutoriales/que-es-javascript-introduccion-basica/
-https://soyrafaramos.com/que-es-javascript-para-que-sirve/
-https://desarrolloweb.com/home/javascript#:~:text=Hoy%20las%20aplicaciones%20web%20m%C3%A1s,Slack%20o%20terminal%20como%20Hyper.
-https://desarrolloweb.com/home/javascript#:~:text=Hoy%20las%20aplicaciones%20web%20m%C3%A1s,Slack%20o%20terminal%20como%20Hyper.
+    https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics - ¿Que es JavaScript?
+    https://www.um.es/docencia/barzana/DIVULGACION/INFORMATICA/Javascript-diez-dias.html - ¿Que es JavaScript?
+    https://aws.amazon.com/es/what-is/javascript/ - ¿Que es JavaScript?
+    https://blog.hubspot.es/website/que-es-javascript - ¿Que es JavaScript?
+    https://www.nextu.com/blog/conoce-las-ventajas-y-desventajas-de-javascript/#:~:text=Tiende%20a%20introducir%20gran%20cantidad,los%20navegadores%20de%20manera%20uniforme. - Ventajas y Desventajas
+    https://elpais.com/tecnologia/2020-08-28/el-lenguaje-de-programacion-que-cambio-la-web-y-tu-vida-cumple-25-anos.html
+    https://aws.amazon.com/es/what-is/javascript/
+    https://keepcoding.io/nuestros-bootcamps/full-stack-web-bootcamp/
+    https://utel.mx/blog/menu-profesional/historia-del-lenguaje-javascript/
+    https://blogueropro.com/blog/ventajas-y-desventajas-de-usar-javascript-en-la-programacion-web
+    https://www.freecodecamp.org/espanol/news/ventajas-y-desventajas-de-javascript/
+    https://www.hostinger.es/tutoriales/que-es-javascript-introduccion-basica/
+    https://soyrafaramos.com/que-es-javascript-para-que-sirve/
+    https://desarrolloweb.com/home/javascript#:~:text=Hoy%20las%20aplicaciones%20web%20m%C3%A1s,Slack%20o%20terminal%20como%20Hyper.
+    https://desarrolloweb.com/home/javascript#:~:text=Hoy%20las%20aplicaciones%20web%20m%C3%A1s,Slack%20o%20terminal%20como%20Hyper.
