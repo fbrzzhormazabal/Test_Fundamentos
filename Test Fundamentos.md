@@ -1,20 +1,18 @@
-Informe Javascript
+# Informe Javascript
 
-Portada
-
-Índice
+# Índice
 
     1.-Introducción
-    2.-Deglosando el Lenguaje "JavaScript"
+    2.-Deglosando el Lenguaje: "JavaScript"
     2.1-¿Qué es JavaScript?
     2.2-Ventajas de JavaScript	
     2.3-Desventajas de JavaScript
     2.3-Uso de lenguaje de programacion JavaScript en la vida diaria
-    2.4-BBDD utilizada
-    3.-Conclusión
-    4.-Webgrafía
+    3.-BBDD utilizada
+    4.-Conclusión
+    5.-Webgrafía
 
-1. Introducción
+# 1. Introducción
 
     En el presente informe daremos a conocer las bases o implicancias que tiene uno de los lenguajes más llamativos 
     visualmente para los usuarios al momento de interactuar con una pagina web, razón por la cual fue principalmente creado,
@@ -29,7 +27,9 @@ Portada
     consolida este lenguaje en compañia de una interfaz ya que tambien analizaremos sus puntos mas bajos en el 
     mercado y por el cual es punto de muchas criticas por parte de algunos desarrolladores.
     
-2. ¿Qué es Javascript?
+# 2. Deglosando el Lenguaje : "JavaScript"
+
+- 2.1 ¿Qué es JavaScript?
 
     Javascript en general es un lenguaje de programación que hace acompañamiento a el ya conocido HTML, otorgando
     un uso más interactivo y dinámico al momento de navegar en la World Wide Web, el principal desarrollador de este 
@@ -46,7 +46,7 @@ Portada
     a lo que abarca a día de hoy, de pasar a ser dependiente de un servidor web a hacer interfaces graficas de escritorio
     y aplicaciones moviles, independizandose por fin totalmente de HTML.
 
-2.1 Ventajas de Javascript
+- 2.1 Ventajas de Javascript
 
     Dentro de los beneficios que podemos tomar en cuenta al momento de querer utilizar JavaScript son:
 
@@ -74,7 +74,7 @@ Portada
     ~Contemporanéo: El equipo de desarrollo  JavaScript  y ECMA internacional  actualizan y crean continuamente frameworks
     y librerias, lo que garantiza su relevancia dentro del sector.
     
-2.2 Desventajas de JavaScript
+- 2.2 Desventajas de JavaScript
 
     Por otra parte tambien tomaremos en cuenta los puntos negativos ya que este lenguaje a pesar de ser un buen ejemplar
     en su area aun asi no es perfecto, entre sus desventajas encontramos:
@@ -88,7 +88,7 @@ Portada
     complementado con otros lenguajes mas evolucionados y seguros.
 
 
-2.3 Uso de lenguaje de programacion JavaScript en la vida diaria
+- 2.3 Uso de lenguaje de programacion JavaScript en la vida diaria
     
     Javascript es el lenguaje de programación que se utiliza para añadir características interactivas a un sitio web,
     por ejemplo efectos de estilo dinamicos, animacion, juegos o eventos que ocurren cuando los botones son presionados o 
@@ -101,9 +101,9 @@ Portada
     mooonfamer,etc. Y por ultimo tenemos los juegos como pacman, bomberman, real world razer, brickslayer,y asi podemos
     seguir continuando con una lista infinita de elementos que es capaz de crear JavaScript.
     
-2.4 BBDD utilizada
+# 3. BBDD utilizada
 
-3. Conclusión
+# 4. Conclusión
 
     En sintesis, luego de analizar todo lo que abarca este lenguaje de programación se logra apreciar el gran espacio de 
     aplicacion que tiene JavaScript, el cual apesar de tener ciertas desventajas, con el paso del tiempo a logrado
@@ -112,7 +112,7 @@ Portada
     entrega en el ambito de la eficacia. Finalmente lo que mas recordaremos es como Brendan Eich logro crear un lenguaje
     de programacion en tan solo 10 dias, logrando un exito que evolucionaria a traves de los años.
 
-4. Webgrafía
+# 5. Webgrafía
 
     https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics - ¿Que es JavaScript?
     https://www.um.es/docencia/barzana/DIVULGACION/INFORMATICA/Javascript-diez-dias.html - ¿Que es JavaScript?
