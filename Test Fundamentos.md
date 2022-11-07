@@ -1,6 +1,6 @@
 # Informe Javascript
 
-# Índice
+## Índice
 
     1.-Introducción
     2.-Deglosando el Lenguaje: "JavaScript"
@@ -12,7 +12,7 @@
     4.-Conclusión
     5.-Webgrafía
 
-# 1. Introducción
+## 1. Introducción
 
     En el presente informe daremos a conocer las bases o implicancias que tiene uno de los lenguajes más llamativos 
     visualmente para los usuarios al momento de interactuar con una pagina web, razón por la cual fue principalmente creado,
@@ -27,7 +27,7 @@
     consolida este lenguaje en compañia de una interfaz ya que tambien analizaremos sus puntos mas bajos en el 
     mercado y por el cual es punto de muchas criticas por parte de algunos desarrolladores.
     
-# 2. Deglosando el Lenguaje : "JavaScript"
+## 2. Deglosando el Lenguaje : "JavaScript"
 
 - 2.1 ¿Qué es JavaScript?
 
@@ -101,9 +101,9 @@
     mooonfamer,etc. Y por ultimo tenemos los juegos como pacman, bomberman, real world razer, brickslayer,y asi podemos
     seguir continuando con una lista infinita de elementos que es capaz de crear JavaScript.
     
-# 3. BBDD utilizada
+## 3. BBDD utilizada
 
-# 4. Conclusión
+## 4. Conclusión
 
     En sintesis, luego de analizar todo lo que abarca este lenguaje de programación se logra apreciar el gran espacio de 
     aplicacion que tiene JavaScript, el cual apesar de tener ciertas desventajas, con el paso del tiempo a logrado
@@ -112,7 +112,7 @@
     entrega en el ambito de la eficacia. Finalmente lo que mas recordaremos es como Brendan Eich logro crear un lenguaje
     de programacion en tan solo 10 dias, logrando un exito que evolucionaria a traves de los años.
 
-# 5. Webgrafía
+## 5. Webgrafía
 
     https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics - ¿Que es JavaScript?
     https://www.um.es/docencia/barzana/DIVULGACION/INFORMATICA/Javascript-diez-dias.html - ¿Que es JavaScript?
