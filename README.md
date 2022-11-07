@@ -66,7 +66,7 @@ npm -v
 
 ## Lluvia de preguntas
 
-- Dentro de las preguntas vistas para la realizacion del formulario se tomo la desición de utilizar el criterio del "Test de Goldberg" y una variedad de preguntas que ajustaremos al proceso final. Dentro de las preguntas encontradas estan:
+- Dentro de las preguntas vistas para la realizacion del formulario se tomo la desición de utilizar el criterio del "Test de Goldberg" y una variedad de preguntas que ajustaremos al proceso final. Dentro de las preguntas investigadas están:
 ```bash
 - Preguntas iniciales
 
@@ -86,7 +86,7 @@ npm -v
 11.¿Duerme mal de noche?
 12.¿En la mañana se siente peor?
 13.¿Le cuesta trabajo concentrarse?
-14.¿Le ha disminuido el apetito?*
+14.¿Le ha disminuido el apetito?
 15.¿Se siente obsesivo o repetitivo?
 16.¿Ha disminuido su interés sexual? 
 17.¿Considera que su rendimiento en el trabajo es menor?
@@ -101,4 +101,13 @@ npm -v
 26.¿Siente miedo de algunas cosas?
 27.¿Siente deseos de morir?
 28.¿Se siente apático, sin interés en las cosas?
+```
+
+## Escala de ponderación
+
+- Nos regiremos por este margen de puntuación para mayor libertad del usuario al momento de la votación:
+```bash
+-Totalmente de acuerdo (1)
+-Un poco de acuerdo (0.5)
+-Completamente en desacuerdo (0)
 ```
