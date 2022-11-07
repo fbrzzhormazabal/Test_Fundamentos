@@ -24,12 +24,12 @@ conection.query('SELECT * from Users', (err, rows) =>{
 })
 
 //Insertando usuarios
-/*
+
 conection.query('INSERT INTO Users(RUN,Dv,Names,Mother_Name,Father_Name,Gender,Birthday,Password,Email,Deleted_At,Telefono) VALUES ("20250243","5","Fabrizzi","Rojo","Hormazabal","Masculino","2000-01-27","a","fabri@hotmail.com","","55555555")',(err, rows) =>{
     if(err) throw err
     console.log('Se a ingresado un nuevo Usuario')
 });
-*/
+
 //Actualizar Usuario
 /*
 conection.query('UPDATE Users SET Names="NActualizado", Mother_Name = "AMActualizado" WHERE ID = 4', (err, rows) =>{
