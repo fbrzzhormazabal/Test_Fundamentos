@@ -63,6 +63,18 @@ npm -v
 ```bash
    nmp install mysql 
 ```
+- Instalacion de WampServer 
+- WampServer
+1) Primero tenemos que ir a la pagina de WarmpServer y vamos a descargar Wamp haciendo clic en Download.
+2) Tendras que seleccionar la version de Wamp adecuada segun tu sistema operativo.
+3) Al descargar el intalador, debes darle clic a download directly para descargar el instalador de Wamp para la descarga automatica.
+4) Una vez descargado el instalador debes ejecutarlo, y darles los permisos del administrador.
+5) Seleccionaras el idioma de su preferencia y le daras a ok.
+6) Aceptas los terminos y condiciones y para luego darle a next.
+7) La siguiente ventana son los requisitos dale a next.
+8) Introducir el nombre del directorio donde se va a instalar Wamp para luego darle a Next.
+9) Intrudece la carpeta del menu de inicuio donde esta el acceso directo a Wamp dale a Next.
+10) al terminar la instalacion veras un mensaje de confirmacion, haz clic en Finish para cerrar el instalador.
 
 ## Lluvia de preguntas
 
