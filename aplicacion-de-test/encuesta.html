@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <header>
+        <h1>Responda Las siguentes preguntas</h1>
+        <p>Realizando el test</p>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>1 - "Pregunta 1"</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> "Totalmente de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> "Un poco de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> "Completamente en descauerdo"
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2 - "Pregunta 2"</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> "Totalmente de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> "Un poco de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> "Completamente en descauerdo"
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3 - "Pregunta 3"</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> "Totalmente de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> "Un poco de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> "Completamente en descauerdo"
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4 - "Pregunta 4"</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> "Totalmente de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> "Un poco de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> "Completamente en descauerdo"
+            </label>
+        </section>
+        <section id="p4">
+            <h3>5 - "Pregunta 5"</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> "Totalmente de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> "Un poco de acuerdo"
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> "Completamente en descauerdo"
+            </label>
+        </section>
+
+        <button onclick="enviarRespuesta()">Enviar Respuesta</button>
+        <h2></h2>
+    </div>
+    
+</body>
+</html>
