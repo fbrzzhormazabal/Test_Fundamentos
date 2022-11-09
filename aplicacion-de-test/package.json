@@ -2,7 +2,7 @@
   "name": "my-electron-app",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "electron ."
   },
@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^21.2.2"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "promise-mysql": "^5.2.0"
   }
 }
