@@ -1,4 +1,15 @@
 const {BrowserWindow } = require('electron')
+const {getConnection} = require('./database')
+
+async function createUser(User){
+    try{
+        const conn = await getConnection();
+        const result = await conn.query('INSERT INTO users SET ?', User)
+        console.log(result)
+    } catch (error) {
+        console.log(error)
+    }
+}
 
 let window
 
