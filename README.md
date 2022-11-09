@@ -53,7 +53,7 @@ node -v
 ```bash
 npm -v
 ```
-- Instalación de CodeRunner y librerias de npm
+- Instalación de CodeRunner y librerias de npm 
 1) Para CodeRunner nos iremos a las extenciones de VS Code para luego buscar CodeRunner y darle install.
 2) Para instalar npm, utilizaremos nuevamente la terminal "cmd", presionamos las teclas "Windows + R" y escribimos "cmd", le damos a Enter y en la terminal escribimos: 
 ```bash
@@ -63,7 +63,9 @@ npm -v
 ```bash
    nmp install mysql 
 ```
-- Instalacion de WampServer 
+- Framework electron
+1)
+
 - WampServer
 1) Primero tenemos que ir a la pagina de WarmpServer y vamos a descargar Wamp haciendo clic en Download.
 2) Tendras que seleccionar la version de Wamp adecuada segun tu sistema operativo.
@@ -75,6 +77,9 @@ npm -v
 8) Introducir el nombre del directorio donde se va a instalar Wamp para luego darle a Next.
 9) Intrudece la carpeta del menu de inicuio donde esta el acceso directo a Wamp dale a Next.
 10) al terminar la instalacion veras un mensaje de confirmacion, haz clic en Finish para cerrar el instalador.
+
+- dBeaver
+1)
 
 ## Lluvia de preguntas
 
