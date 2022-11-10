@@ -1,42 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-    <head>
-        <title>Registro Realización Del Test</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Test De Depresion</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
 
 <body>
-    <nav class="navbar text-dark" style="background-color: #1fa1aa;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="https://w7.pngwing.com/pngs/931/924/png-transparent-t-shirt-face-happy-face-cartoon-face-wikimedia-commons-smiley-thumbnail.png" alt="Logo" width="30" height="24">
-                Test de Depresión
-            </a>
+    <div class="container p-4">
+        <div class="card p-2">
+            <div class="card-body">
+                <input id="email" type="email" class="form-control mb-2" placeholder="Email..." />
+                <input id="password" type="password" class="form-control mb-2" placeholder="Password..." />
+                <a href="registro.html" class="link">¿No tienes cuenta? Registrate Aquí</a>
+                <button id="login" class="btn btn-info" onclick="location.href='encuesta.html'">Inicar Sesion
+                </button>
+            </div>
         </div>
-    </nav>
-    <form action="">
-        <h1 class="title">Login</h1>
-        <label>
-            <i class="fa-solid fa-user"></i>
-            <input type="number" id="RUN" placeholder="Ingrese su RUN">
-        </label>
-        <label>
-            <i class="fa-solid fa-lock"></i>
-            <input type="password" id="password" placeholder="Ingrese su contraseña">
-        </label>
-        <a href="registro.html" class="link">Si no tiene una cuenta ¿Desea registrarse?</a>
-
-        <button type="button" class="btn btn-success" onclick="location.href='encuesta.html'">
-            Login
-        </button>
-    </form>
+    </div>
 </body>
-
 </html>

@@ -16,7 +16,8 @@ const userEmail = document.getElementById('Email');
 const userPass = document.getElementById('Contraseña');
 
 
-RegistroForm.addEventListener('submit',() => {
+RegistroForm.addEventListener('submit',(e) => {
+    e.preventDefault();
 
     const newUser = {
         Names: userNombre.value,
