@@ -5,5 +5,5 @@ require('./database')
 
 require('electron-reload')(__dirname)
 
-app.allowRendererProcessReuse = false;
+app.allowRendererProcessReuse = true;
 app.whenReady().then(createWindow);

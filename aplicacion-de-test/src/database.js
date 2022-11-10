@@ -1,5 +1,5 @@
 //Hacer la conexion a la base de datos
-const mysql = require('promise-mysql')
+const mysql = require('mysql')
 
 const connection = mysql.createConnection({
     host:'localhost',
@@ -12,4 +12,4 @@ function getConnection(){
     return connection;
 }
 
-module.exports= {getConnection}
+module.exports= { getConnection }
