@@ -1,143 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
 </head>
+
 <body>
-    <header>
-        <h1>Responda Las siguentes preguntas</h1>
-        <p>Realizando el test</p>
-    </header>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h3>Test de Depresión de Goldberg</h3>
+        </div>
+        <div class="card border-info mb-4 ">
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°1</span>
+            </div>
+            <div class="card-body">
+                <p>¿Se ha sentido con poca energía últimamente?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1_r1" value="r1">
+                    <label class="form-check-label" for="q1_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1_r2" value="r2">
+                    <label class="form-check-label" for="q1_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1_r3" value="r3">
+                    <label class="form-check-label" for="q1_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card border-info mb-4">
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°2</span>
+            </div>
+            <div class="card-body">
+                <p>¿Ha perdido el interés por las cosas?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q2_r1" value="r1">
+                    <label class="form-check-label" for="q2_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q2_r2" value="r2">
+                    <label class="form-check-label" for="q2_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q2_r3" value="r3">
+                    <label class="form-check-label" for="q2_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
 
-    <div class="container">
-        <section id="p0">
-            <h3>1 - "Pregunta 1"</h3>
-            <label>
-                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p1">
-            <h3>2 - "Pregunta 2"</h3>
-            <label>
-                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p2">
-            <h3>3 - "Pregunta 3"</h3>
-            <label>
-                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p3">
-            <h3>4 - "Pregunta 4"</h3>
-            <label>
-                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p4">
-            <h3>5 - "Pregunta 5"</h3>
-            <label>
-                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p5">
-            <h3>6 - "Pregunta 6"</h3>
-            <label>
-                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p6">
-            <h3>7 - "Pregunta 7"</h3>
-            <label>
-                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p7">
-            <h3>8 - "Pregunta 8"</h3>
-            <label>
-                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p8">
-            <h3>9 - "Pregunta 9"</h3>
-            <label>
-                <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
-        <section id="p9">
-            <h3>10 - "Pregunta 10"</h3>
-            <label>
-                <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> "Totalmente de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> "Un poco de acuerdo"
-            </label>
-            <label>
-                <input type="radio" value="3" name="p9" onclick="respuesta(9,this)"> "Completamente en descauerdo"
-            </label>
-        </section>
+        <div class="card border-info mb-4">
 
-        <form method="get" action="esperando.html">
-        <input type="submit" value="Enviar este formulario" />            
-        </form>
-        <h2></h2>
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°3</span>
+
+            </div>
+
+            <div class="card-body">
+                <p>¿Ha perdido la confianza en sí mismo?</p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q3_r1" value="r1">
+                    <label class="form-check-label" for="q3_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q3_r2" value="r2">
+                    <label class="form-check-label" for="q3_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q3_r3" value="r3">
+                    <label class="form-check-label" for="q3_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border-info mb-4">
+
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°4</span>
+
+            </div>
+
+            <div class="card-body">
+                <p>¿Se ha sentido desesperanzado?</p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q4_r1" value="r1">
+                    <label class="form-check-label" for="q4_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q4_r2" value="r2">
+                    <label class="form-check-label" for="q4_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q4_r3" value="r3">
+                    <label class="form-check-label" for="q4_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border-info mb-4">
+
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°5</span>
+
+            </div>
+
+            <div class="card-body">
+                <p>¿Le ha disminuido el apetito?</p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q5_r1" value="r1">
+                    <label class="form-check-label" for="q5_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q5_r2" value="r2">
+                    <label class="form-check-label" for="q5_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q5_r3" value="r3">
+                    <label class="form-check-label" for="q5_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card border-info mb-4">
+
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°6</span>
+
+            </div>
+
+            <div class="card-body">
+                <p>¿Ha disminuido su interés sexual?</p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q6_r1" value="r1">
+                    <label class="form-check-label" for="q6_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q6_r2" value="r2">
+                    <label class="form-check-label" for="q6_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q6_r3" value="r3">
+                    <label class="form-check-label" for="q6_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card border-info mb-4">
+
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°7</span>
+
+            </div>
+
+            <div class="card-body">
+                <p>¿Se siente pesimista, piensa que las cosas le van a salir mal?</p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q7_r1" value="r1">
+                    <label class="form-check-label" for="q7_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q7_r2" value="r2">
+                    <label class="form-check-label" for="q7_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q7_r3" value="r3">
+                    <label class="form-check-label" for="q7_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card border-info mb-4">
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°8</span>
+            </div>
+            <div class="card-body">
+                <p>¿Se siente inseguro, con falta de confianza en usted mismo?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q8_r1" value="r1">
+                    <label class="form-check-label" for="q8_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q8_r2" value="r2">
+                    <label class="form-check-label" for="q8_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q8_r3" value="r3">
+                    <label class="form-check-label" for="q8_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card border-info mb-4">
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°9</span>
+            </div>
+            <div class="card-body">
+                <p>¿Se siente apático, sin interés en las cosas?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q9" id="q9_r1" value="r1">
+                    <label class="form-check-label" for="q9_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q9" id="q9_r2" value="r2">
+                    <label class="form-check-label" for="q9_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q9" id="q9_r3" value="r3">
+                    <label class="form-check-label" for="q9_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="card border-info mb-4">
+            <div class="card-header bg-info text-white">
+                <span>Pregunta N°10</span>
+            </div>
+            <div class="card-body">
+                <p>¿Siente deseos de morir?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q10" id="q10_r1" value="r1">
+                    <label class="form-check-label" for="q10_r1">
+                        Totalmente de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q10" id="q10_r2" value="r2">
+                    <label class="form-check-label" for="q10_r2">
+                        Un Poco de Acuerdo
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q10" id="q10_r3" value="r3">
+                    <label class="form-check-label" for="q10_r3">
+                        Completamente en Desacuerdo
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+        <a href="esperando.html" class="trigger-btn">Enviar Respuestas</a>
+        </div>
+</div>
+            </div>
+        </div>
     </div>
     <script src="./encuesta.js"></script>
 </body>

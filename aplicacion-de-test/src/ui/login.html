@@ -9,14 +9,17 @@
 </head>
 
 <body>
-    <div class="container p-4">
+    <div class="container p-4" id="LoginForm">
         <div class="card p-2">
             <div class="card-body">
-                <input id="email" type="email" class="form-control mb-2" placeholder="Email..." />
-                <input id="password" type="password" class="form-control mb-2" placeholder="Password..." />
+                <input id="Email" type="email" class="form-control mb-2" placeholder="Email..." />
+                <input id="Password" type="password" class="form-control mb-2" placeholder="Password..." />
                 <a href="registro.html" class="link">¿No tienes cuenta? Registrate Aquí</a>
                 <button id="login" class="btn btn-info" onclick="location.href='encuesta.html'">Inicar Sesion
                 </button>
+                <div class="form-group">
+                    <label id="mensaje" class="form-control border-0 text-center"></label>
+                </div>
             </div>
         </div>
     </div>

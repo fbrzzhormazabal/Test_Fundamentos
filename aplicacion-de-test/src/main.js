@@ -11,6 +11,16 @@ async function createUser(User){
     }
 }
 
+async function validateUser(User){
+    try{
+        const conn = await getConnection();
+        const result = await conn.query('SELECT INTO users WHERE Email=? AND Password=?', User)
+        console.log(result)
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 let window
 
 function createWindow() {
@@ -27,5 +37,6 @@ function createWindow() {
 
 module.exports = {
     createWindow,
-    createUser
+    createUser,
+    validateUser
 }

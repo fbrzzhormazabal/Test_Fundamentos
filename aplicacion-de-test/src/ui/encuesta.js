@@ -1,4 +1,4 @@
-const RegistroForm = document.getElementById('RegistroForm');
+const EncuestaForm = document.getElementById('EncuestaForm');
 
 const { remote} = require('electron');
 const main = remote.require('./main');
