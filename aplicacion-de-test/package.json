@@ -13,11 +13,7 @@
     "electron": "^8.5.5"
   },
   "dependencies": {
-<<<<<<< HEAD
     "bcrypt": "^5.1.0",
-=======
-    "bootstrap": "^5.2.2",
->>>>>>> 08e5c7c66a481184d6ab506e07dfae9de85701f9
     "electron-reload": "^2.0.0-alpha.1",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
