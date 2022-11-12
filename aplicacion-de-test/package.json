@@ -13,6 +13,7 @@
     "electron": "^8.5.5"
   },
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "electron-reload": "^2.0.0-alpha.1",
     "mysql": "^2.18.1",
     "promise-mysql": "^5.2.0"

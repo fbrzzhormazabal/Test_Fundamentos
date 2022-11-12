@@ -7,14 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta</title>
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+
+        .modal-confirm h4 {
+            text-align: center;
+            font-size: 26px;
+            margin: 30px 0 -15px;
+        }
+
+        .modal-confirm .form-control,
+        .modal-confirm .btn {
+            min-height: 40px;
+            border-radius: 3px;
+        }
+
+        .modal-confirm .close {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+        }
+
+        .modal-confirm .modal-footer {
+            border: none;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        .modal-confirm .icon-box {
+            color: #fff;
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: -70px;
+            width: 95px;
+            height: 95px;
+            border-radius: 50%;
+            z-index: 9;
+            background: #14c9e5;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-confirm .icon-box i {
+            font-size: 58px;
+            position: relative;
+            top: 3px;
+        }
+
+        .modal-confirm.modal-dialog {
+            margin-top: 80px;
+        }
+
+        .modal-confirm .btn {
+            color: #fff;
+            border-radius: 4px;
+            background: #14c9e5;
+            text-decoration: none;
+            transition: all 0.4s;
+            line-height: normal;
+            border: none;
+        }
+
+        .modal-confirm .btn:hover,
+        .modal-confirm .btn:focus {
+            background: #14c9e5;
+            outline: none;
+        }
+
+        .trigger-btn {
+            display: inline-block;
+            margin: 100px auto;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="jumbotron">
-            <h3>Test de Depresión de Goldberg</h3>
-        </div>
-        <div class="card border-info mb-4 ">
+        <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Never Alone</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a class="nav-link" href="#">¿Que es la Depresión?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contáctanos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Solicitudes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Observaciones</a></li>
+                                <li><a class="dropdown-item" href="#">Test Rendidos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-nowrap" href="login.html">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid mt-4">
+        <h3>Test de Depresión de Goldberg</h3>
+        <div class="card border-info mb-4 mt-4">
             <div class="card-header bg-info text-white">
                 <span>Pregunta N°1</span>
             </div>
@@ -66,31 +175,24 @@
                 </div>
             </div>
         </div>
-
         <div class="card border-info mb-4">
-
             <div class="card-header bg-info text-white">
                 <span>Pregunta N°3</span>
-
             </div>
-
             <div class="card-body">
                 <p>¿Ha perdido la confianza en sí mismo?</p>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q3" id="q3_r1" value="r1">
                     <label class="form-check-label" for="q3_r1">
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q3" id="q3_r2" value="r2">
                     <label class="form-check-label" for="q3_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q3" id="q3_r3" value="r3">
                     <label class="form-check-label" for="q3_r3">
@@ -99,31 +201,24 @@
                 </div>
             </div>
         </div>
-
         <div class="card border-info mb-4">
-
             <div class="card-header bg-info text-white">
                 <span>Pregunta N°4</span>
-
             </div>
-
             <div class="card-body">
                 <p>¿Se ha sentido desesperanzado?</p>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q4" id="q4_r1" value="r1">
                     <label class="form-check-label" for="q4_r1">
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q4" id="q4_r2" value="r2">
                     <label class="form-check-label" for="q4_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q4" id="q4_r3" value="r3">
                     <label class="form-check-label" for="q4_r3">
@@ -132,31 +227,24 @@
                 </div>
             </div>
         </div>
-
         <div class="card border-info mb-4">
-
             <div class="card-header bg-info text-white">
                 <span>Pregunta N°5</span>
-
             </div>
-
             <div class="card-body">
                 <p>¿Le ha disminuido el apetito?</p>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q5" id="q5_r1" value="r1">
                     <label class="form-check-label" for="q5_r1">
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q5" id="q5_r2" value="r2">
                     <label class="form-check-label" for="q5_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q5" id="q5_r3" value="r3">
                     <label class="form-check-label" for="q5_r3">
@@ -166,29 +254,23 @@
             </div>
         </div>
         <div class="card border-info mb-4">
-
             <div class="card-header bg-info text-white">
                 <span>Pregunta N°6</span>
-
             </div>
-
             <div class="card-body">
                 <p>¿Ha disminuido su interés sexual?</p>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q6" id="q6_r1" value="r1">
                     <label class="form-check-label" for="q6_r1">
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q6" id="q6_r2" value="r2">
                     <label class="form-check-label" for="q6_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q6" id="q6_r3" value="r3">
                     <label class="form-check-label" for="q6_r3">
@@ -198,29 +280,23 @@
             </div>
         </div>
         <div class="card border-info mb-4">
-
             <div class="card-header bg-info text-white">
                 <span>Pregunta N°7</span>
-
             </div>
-
             <div class="card-body">
                 <p>¿Se siente pesimista, piensa que las cosas le van a salir mal?</p>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q7" id="q7_r1" value="r1">
                     <label class="form-check-label" for="q7_r1">
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q7" id="q7_r2" value="r2">
                     <label class="form-check-label" for="q7_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q7" id="q7_r3" value="r3">
                     <label class="form-check-label" for="q7_r3">
@@ -241,14 +317,12 @@
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q8" id="q8_r2" value="r2">
                     <label class="form-check-label" for="q8_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q8" id="q8_r3" value="r3">
                     <label class="form-check-label" for="q8_r3">
@@ -269,14 +343,12 @@
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q9" id="q9_r2" value="r2">
                     <label class="form-check-label" for="q9_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q9" id="q9_r3" value="r3">
                     <label class="form-check-label" for="q9_r3">
@@ -297,14 +369,12 @@
                         Totalmente de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q10" id="q10_r2" value="r2">
                     <label class="form-check-label" for="q10_r2">
                         Un Poco de Acuerdo
                     </label>
                 </div>
-
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="q10" id="q10_r3" value="r3">
                     <label class="form-check-label" for="q10_r3">
@@ -313,13 +383,41 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
-        <a href="esperando.html" class="trigger-btn">Enviar Respuestas</a>
+        <div class="col text-center pb-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#VentanaExito">Enviar
+                Respuestas</button>
         </div>
-</div>
+        <div class="modal fade" id="VentanaExito" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-confirm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box">
+                            <i class="material-icons">&#xE876;</i>
+                        </div>
+                        <h4 class="modal-title w-100">Enviado con Exito!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Tus respuestas estan siendo analizadas. Presiona "Ver Resultados" para
+                            ver las observaciones.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col text-center">
+                            <button type="button" class="btn btn-primary" name="button" data-dismiss="modal"
+                                onclick="location.href='index.html'">Ver
+                                Resultados</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="./encuesta.js"></script>
 </body>
+
 </html>
