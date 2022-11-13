@@ -1,4 +1,4 @@
-const {BrowserWindow,ipcMain } = require('electron')
+const {BrowserWindow, ipcMain } = require('electron')
 const {getConnection} = require('./database')
 
 async function createUser(User){
@@ -11,6 +11,17 @@ async function createUser(User){
     }
 }
 
+async function validatelogin(obj) {
+    try {
+        const conn = await getConnection();
+        const result = await conn.query('SELECT * FROM users WHERE email=? AND password=?',[email, password])
+        const { email, password } = obj 
+        console.log(result)
+    } catch (error) {
+        console.log(error)
+    }    
+}
+/*
 process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
 
 async function consultarUsuario(Email, Password){
@@ -26,7 +37,6 @@ ipcMain.on('newUsuario', (e, estadoUsuario) => {
     window;
   });
 
-/*
 async function validateUser(User){
     try{
         const conn = await getConnection();
@@ -56,5 +66,6 @@ module.exports = {
     createWindow,
     createUser,
     //validateUser,
-    consultarUsuario
+    validatelogin
+    //consultarUsuario
 }
