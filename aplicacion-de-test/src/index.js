@@ -1,5 +1,5 @@
-const {createWindow} = require('./main')
-const {app} = require('electron')
+const {createWindow,} = require('./main')
+const {app, ipcMain} = require('electron')
 
 require('./database')
 

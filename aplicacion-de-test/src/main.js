@@ -44,15 +44,15 @@ async function createUser(User){
     }
 }
 
-async function consultarUsuario(usuarioForma, claveForma){
+async function consultarUsuario(email, password){
         const conn = await getConnection();
-        const result = await conn.query('SELECT * FROM users WHERE email = ? And password =?', [usuarioForma, claveForma])
+        const result = await conn.query('SELECT * FROM users WHERE Email = ? And Password =?', [email, password])
         console.log(result)
         return result[0];
 }
 
 /*
-login.js
+//login.js
 async function validateUser(User){
     try{
         const conn = await getConnection();
@@ -64,8 +64,8 @@ async function validateUser(User){
 }
 */
 
-/*
-logintestv2.js forma 2
+
+//logintestv2.js forma 2
 ipcMain.handle('login', (event, obj) => {
     validatelogin(obj)
   });
@@ -73,17 +73,17 @@ ipcMain.handle('login', (event, obj) => {
 async function validatelogin(obj) {
     try {
         const conn = await getConnection();
-        const result = await conn.query('SELECT * FROM users WHERE email=? AND password=?',[email, password])
+        const result = await conn.query('SELECT * FROM users WHERE Email=? AND Password=?',[email, password])
         const { email, password } = obj 
         console.log(result)
     } catch (error) {
         console.log(error)
     }    
 }
-*/
+
 
 /*
-logintestv2.js forma 1
+//logintestv2.js forma 1
 ipcMain.handle('login', (event, obj) => {
     validatelogin(obj)
   });
@@ -91,15 +91,16 @@ ipcMain.handle('login', (event, obj) => {
 async function validatelogin(obj) {
    const { email, password } = obj
    const conn = await getConnection()  
-   const result = await conn.query("SELECT * FROM users WHERE email=? AND password=?")
+   const result = await conn.query("SELECT * FROM users WHERE Email=? AND Password=?")
     conn.query(result, [email, password], (error, results, fields) => {
       if(error){ 
         console.log(error);
     } 
       if(results.length > 0){
-         createWindow ()
-         win.show()
-         winlogin.close()
+         new Notification({
+            title:"login",
+            body:"Conectado"
+         }).show()
        }else{
          new Notification({
            title:"login",
@@ -113,8 +114,8 @@ async function validatelogin(obj) {
 module.exports = {
     createWindow,
     createUser,         
-    consultarUsuario
-    //loginWindow,  
-    //validatelogin,
+    consultarUsuario,
+    validatelogin
+    //loginWindow,    
     //validateUser,
 }

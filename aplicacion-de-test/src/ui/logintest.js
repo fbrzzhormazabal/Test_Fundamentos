@@ -21,15 +21,17 @@ form.addEventListener('submit', async(e) => {
 const { ipcRenderer } = require('electron');
 const main = require('../main');
 const form = document.querySelector('LoginFormtest');
-form.addEventListener('submit', async(e) => {
-    const usuarioForma = document.querySelector('#Email').value;
-    const claveForma = document.querySelector('#Password').value;
+LoginFormtest.addEventListener('submit', async(e) => {
+    const usuarioForma = document.querySelector('#email').value;
+    const claveForma = document.querySelector('#password').value;
+    const click = document.getElementById('login');
     const estadoUsuario = await main.consultarUsuario(usuarioForma, claveForma);
     if (typeof estadoUsuario == 'undefined') {
-        document.getElementById('mensaje').innerHTML = 'Usuario o Clave INVALIDA';
+        document.getElementById('login').innerHTML = 'Usuario o Clave INVALIDA';
     } else if (estadoUsuario.usuario == usuarioForma){
-        valorMensaje = false
+        valorMensaje = false       
         ipcRenderer.send('newUsuario', estadoUsuario);
-    }
+        click.onclick=location.href='encuesta.html'
+    }   
     e.preventDefault();
 });

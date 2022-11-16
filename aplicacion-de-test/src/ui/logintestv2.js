@@ -8,11 +8,17 @@ let password;
 
 LoginFormtestv2.addEventListener('submit', async(e) => {
     
+    
     email = document.getElementById('email')
     password = document.getElementById('password')
     btnlogin = document.getElementById('login')
-    const obj = {email:email.value, password:password.value }
-    btnlogin.onclick = ipcRenderer.invoke("login",obj)
-    
-    ipcRenderer.invoke("login",obj)
+     
+    btnlogin.onclick = function(){
+
+        const obj = {Email:email.value, Password:password.value }
+        ipcRenderer.invoke("login",obj)
+        location.href='encuesta.html'
+         
+    } 
+    e.preventDefault();
 })

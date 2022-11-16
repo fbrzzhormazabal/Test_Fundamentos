@@ -9,21 +9,19 @@
 <body>
     <form class="p-4" id="LoginFormtest">
         <div class="form-group">
-            <input type="email" id="Email" class="form-control border-secondary" placeholder="Email..." required>
+            <input type="email" id="email" class="form-control border-secondary" placeholder="Email..." required, autofocus>
         </div>
         <div class="form-group">
-            <input type="password" id="Password" class="form-control border-secondary" placeholder="Contraseña..." required>
+            <input type="password" id="password" class="form-control border-secondary" placeholder="Contraseña..." required, autofocus>
         </div>
         <div class="form-group">
             <label id="mensaje" class="form-control border-0 text-center"></label>
         </div>
         <a href="registro.html" class="link">¿No tienes cuenta? Registrate Aquí</a>
         <button id="login" type="submit" class="btn btn-info" onclick="location.href='encuesta.html'">
-            Iniciar Sesion
+            Iniciar Sesion    
         </button>
-    </form>
-    <script>
-       
-    </script>    
+    </form>   
+       <script src="./logintest.js"></script>      
 </body>
 </html>
