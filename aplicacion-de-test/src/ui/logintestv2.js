@@ -1,14 +1,13 @@
-const { ipcRenderer } = require('electron')
-const main = require('./main');
-const form = document.getElementById('LoginFormtestv2');
+const { ipcRenderer, remote } = require('electron')
+const main = require('../main');
 
+const form = document.getElementById('LoginFormtestv2');
 let btnlogin;
 let email; 
 let password;
 
-LoginFormtestv2.addEventListener('submit', async(e) => {
-    
-    
+form.addEventListener('submit', async(e) => {
+       
     email = document.getElementById('email')
     password = document.getElementById('password')
     btnlogin = document.getElementById('login')

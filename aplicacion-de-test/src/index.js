@@ -1,4 +1,4 @@
-const {createWindow,} = require('./main')
+const {createWindow} = require('./main')
 const {app, ipcMain} = require('electron')
 
 require('./database')
