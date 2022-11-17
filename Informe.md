@@ -7,7 +7,7 @@
     2.1-¿Qué es JavaScript?
     2.2-Ventajas de JavaScript	
     2.3-Desventajas de JavaScript
-    2.3-Uso de lenguaje de programacion JavaScript en la vida diaria
+    2.4-Uso de lenguaje de programacion JavaScript en la vida diaria
     3.-BBDD utilizada
     4.-Conclusión
     5.-Webgrafía
@@ -26,7 +26,7 @@
 
     Si quisieramos hacer un deglose de como Brendan se baso para crear este novedoso lenguaje de programación comenzariamos principalmente por su base la cual toma la sintaxis del lenguaje C, luego toma los patrones de SmallTalk y por ultimo la simetria entre datos y codigo de LISB. Todo esto para finalmente JavaScript con el paso del tiempo evolucionase a lo que abarca a día de hoy, de pasar a ser dependiente de un servidor web a hacer interfaces graficas de escritorio y aplicaciones moviles, independizandose por fin totalmente de HTML.
 
-- 2.1 Ventajas de Javascript
+- 2.2 Ventajas de Javascript
 
     Dentro de los beneficios que podemos tomar en cuenta al momento de querer utilizar JavaScript son:
 
@@ -44,7 +44,7 @@
 
     ~Contemporanéo: El equipo de desarrollo  JavaScript  y ECMA internacional  actualizan y crean continuamente frameworks y librerias, lo que garantiza su relevancia dentro del sector.
 
-- 2.2 Desventajas de JavaScript
+- 2.3 Desventajas de JavaScript
 
     Por otra parte tambien tomaremos en cuenta los puntos negativos ya que este lenguaje a pesar de ser un buen ejemplar en su area aun asi no es perfecto, entre sus desventajas encontramos:
 
@@ -55,7 +55,7 @@
     ~Scripts limitados: No todo se puede realizar con este lenguaje, es por esto que la mayoria de veces debe ser complementado con otros lenguajes mas evolucionados y seguros.
 
 
-- 2.3 Uso de lenguaje de programacion JavaScript en la vida diaria
+- 2.4 Uso de lenguaje de programacion JavaScript en la vida diaria
 
     Javascript es el lenguaje de programación que se utiliza para añadir características interactivas a un sitio web, por ejemplo efectos de estilo dinamicos, animacion, juegos o eventos que ocurren cuando los botones son presionados o cuando los datos son introducidos en formularios, y mucho mas.
 
