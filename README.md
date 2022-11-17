@@ -64,8 +64,10 @@ npm -v
    nmp install mysql 
 ```
 - Framework electron
-1)
-
+1) Para instalar electron, utilizaremos la terminal de visual estudio code, precionando f1 para luego crear una nueva terminal y en la terminal escribimos (todo esto en la carpeta que vamos a ocupar para el programa):
+```bash
+  npm i electron@8.5.5 
+```
 - WampServer
 1) Primero tenemos que ir a la pagina de WarmpServer y vamos a descargar Wamp haciendo clic en Download.
 2) Tendras que seleccionar la version de Wamp adecuada segun tu sistema operativo.
@@ -77,9 +79,6 @@ npm -v
 8) Introducir el nombre del directorio donde se va a instalar Wamp para luego darle a Next.
 9) Intrudece la carpeta del menu de inicuio donde esta el acceso directo a Wamp dale a Next.
 10) al terminar la instalacion veras un mensaje de confirmacion, haz clic en Finish para cerrar el instalador.
-
-- dBeaver
-1)
 
 ## Lluvia de preguntas
 
