@@ -85,7 +85,7 @@
     ~Poca seguridad de codificado: La codificacion de este lenguaje en su FrontEnd pueden ser leidos por 
     cualquier usuario.
 
-    ~Usuabilidad del cliente: JavaScript puede ser desactivado por el usuario.
+    ~Usabilidad del cliente: JavaScript puede ser desactivado por el usuario.
 
     ~Scripts limitados: No todo se puede realizar con este lenguaje, es por esto que la mayoria de veces debe 
     ser complementado con otros lenguajes mas evolucionados y seguros.
