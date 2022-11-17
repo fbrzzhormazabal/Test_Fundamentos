@@ -64,7 +64,7 @@ npm -v
    nmp install mysql 
 ```
 - Framework electron
-1) Para instalar electron, utilizaremos la terminal de visual estudio code, precionando f1 para luego apretar en crear una nueva terminal y en la terminal escribimos:
+1) Para instalar electron, utilizaremos la terminal de visual estudio code, precionando f1 para luego crear una nueva terminal y en la terminal escribimos (todo esto en la carpeta que vamos a ocupar para el programa):
 ```bash
   npm i electron@8.5.5 
 ```
