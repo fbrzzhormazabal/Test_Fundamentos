@@ -18,20 +18,20 @@ form.addEventListener('submit', async(e) => {
     e.preventDefault();
 });
 */
-const { ipcRenderer } = require('electron');
+const { remote, ipcRenderer } = require('electron');
 const main = require('../main');
 const form = document.querySelector('LoginFormtest');
-LoginFormtest.addEventListener('submit', async(e) => {
+
+form.addEventListener('submit', async(e) => {
     const usuarioForma = document.querySelector('#email').value;
     const claveForma = document.querySelector('#password').value;
-    const click = document.getElementById('login');
     const estadoUsuario = await main.consultarUsuario(usuarioForma, claveForma);
     if (typeof estadoUsuario == 'undefined') {
         document.getElementById('login').innerHTML = 'Usuario o Clave INVALIDA';
-    } else if (estadoUsuario.usuario == usuarioForma){
+        console.log("Usuario no encontrado")
+    } else if (estadoUsuario.email == usuarioForma){
         valorMensaje = false       
         ipcRenderer.send('newUsuario', estadoUsuario);
-        click.onclick=location.href='encuesta.html'
     }   
     e.preventDefault();
 });

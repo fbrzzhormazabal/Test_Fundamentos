@@ -68,7 +68,7 @@ async function validateUser(User){
 //logintestv2.js forma 2
 ipcMain.handle('login', (event, obj) => {
     validatelogin(obj)
-  });
+});
 
 async function validatelogin(obj) {
     try {
