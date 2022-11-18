@@ -128,35 +128,43 @@
             <div class="row">
                 <form class="card card-body">
                     <div class="form-group"><input type="text" id="Nombre" placeholder="Primer Nombre"
-                            class="form-control" autofocus></div>
+                            class="form-control" autofocus required></div>
                     <div class="form-group"><input type="text" id="Apellido_p" placeholder="Apellido Paterno"
-                            class="form-control" autofocus></div>
+                            class="form-control" autofocus required></div>
                     <div class="form-group"><input type="text" id="Apellido_m" placeholder="Apellido Materno"
-                            class="form-control" autofocus></div>
+                            class="form-control" autofocus required></div>
                     <div class="form-group"><input type="date" id="Fecha_nacimiento" placeholder="Fecha de Nacimiento"
-                            class="form-control" autofocus></div>
+                            class="form-control" autofocus required></div>
                     <div class="form-group"><input type="number" id="Run" placeholder="Run" class="form-control"
-                            autofocus></div>
+                            autofocus required></div>
                     <div class="form-group"><input type="number" id="Dv" placeholder="Ultimo digito de su RUN"
-                            class="form-control" autofocus></div>
-                    <div class="form-group"><input type="text" id="Genero" placeholder="Genero" class="form-control"
-                            autofocus></div>
-                    <div class="form-group"><input type="number" id="Telefono" placeholder="Nro. Telefonico"
-                            class="form-control" autofocus></div>
-                    <div class="form-group"><input type="email" id="Email" placeholder="Correo electronico"
-                            class="form-control" autofocus></div>
-                    <div class="form-group"><input type="password" id="Contraseña" placeholder="Contraseña"
-                            class="form-control" autofocus></div>
-                    <div class="form-group">
-                        <label class="form-check-label"><input type="checkbox" required="required"> Acepto los <a
-                                href="#">Terminos de uso</a> &amp; <a href="#">Politicas de Privacidad</a></label>
+                            class="form-control" autofocus required></div>
+                    <div class="form-group"><select id="Genero" class="form-select" aria-label="Default select example" required>
+                            <option selected>Seleccione su identidad de género</option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                            <option value="3">No Binario</option>
+                            <option value="4">Trans</option>
+                            <option value="5">Otro</option>
+                        </select>
                     </div>
-                    <button type="submit" class="btn btn-primary" onclick=" location.href='login.html'">Registrarse
-                    </button>
+                        <div class="form-group"><input type="tel" id="Telefono" placeholder="Nro. Telefonico"
+                                class="form-control" autofocus required></div>
+                        <div class="form-group"><input type="email" id="Email" placeholder="Correo electronico"
+                                class="form-control" autofocus required></div>
+                        <div class="form-group"><input type="password" id="Contraseña" placeholder="Contraseña"
+                                class="form-control" autofocus required></div>
+                        <div class="form-group">
+                            <label class="form-check-label"><input type="checkbox" required="required"> Acepto los <a
+                                    href="#">Terminos de uso</a> &amp; <a href="#">Politicas de Privacidad</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick=" location.href='login.html'">Registrarse
+                        </button>
                 </form>
             </div>
             <div class="text-center">Ya tienes una cuenta? <a href="login.html">Inicia Sesión Aquí!</a></div>
     </div>
     <script src="./registro.js"></script>
 </body>
+
 </html>
