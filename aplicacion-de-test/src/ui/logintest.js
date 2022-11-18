@@ -18,7 +18,7 @@ form.addEventListener('submit', async(e) => {
     e.preventDefault();
 });
 */
-const { ipcRenderer } = require('electron');
+const { remote, ipcRenderer } = require('electron');
 const main = require('../main');
 const form = document.querySelector('LoginFormtest');
 
