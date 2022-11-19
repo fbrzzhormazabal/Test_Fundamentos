@@ -44,11 +44,25 @@ async function createUser(User){
     }
 }
 
+async function createAnswer(Answer){
+    try {
+        const connn = await getConnection();
+        const resultt = await connn.query('INSERT INTO answerss SET ?', Answer)
+        console.log(resultt)
+    } catch (error) {
+        console.log(error)
+    }   
+}
+
 async function consultarUsuario(email, password){
+    try {
         const conn = await getConnection();
         const result = await conn.query('SELECT * FROM users WHERE Email = ? And Password =?', [email, password])
         console.log(result)
         return result[0];
+    } catch (error) {
+        console.log(error)
+    }              
 }
 
 /*
@@ -113,7 +127,8 @@ async function validatelogin(obj) {
 
 module.exports = {
     createWindow,
-    createUser,         
+    createUser,
+    createAnswer,         
     consultarUsuario,
     validatelogin
     //loginWindow,    
