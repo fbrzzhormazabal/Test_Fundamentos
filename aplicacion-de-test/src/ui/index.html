@@ -7,9 +7,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
+        body {
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        .modal-login {
+            color: #636363;
+            width: 350px;
+        }
+
+        .modal-login .modal-content {
+            padding: 20px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .modal-login .modal-header {
+            border-bottom: none;
+            position: relative;
+            justify-content: center;
+        }
+
+        .modal-login h4 {
+            text-align: center;
+            font-size: 26px;
+            margin: 30px 0 -15px;
+        }
+
+        .modal-login .form-control:focus {
+            border-color: #14c9e5;
+        }
+
+        .modal-login .form-control,
+        .modal-login .btn {
+            min-height: 40px;
+            border-radius: 3px;
+        }
+
+        .modal-login .modal-footer {
+            background: #ecf0f1;
+            border-color: #dee4e7;
+            text-align: center;
+            justify-content: center;
+            margin: 0 -20px -20px;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        .modal-login .modal-footer a {
+            color: #999;
+        }
+
+        .modal-login .avatar {
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: -70px;
+            width: 95px;
+            height: 95px;
+            border-radius: 50%;
+            z-index: 9;
+            background: #14c9e5;
+            padding: 15px;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-login .avatar img {
+            width: 100%;
+        }
+
+        .modal-login.modal-dialog {
+            margin-top: 80px;
+        }
+
+        .modal-login .btn,
+        .modal-login .btn:active {
+            color: #fff;
+            border-radius: 4px;
+            background: #14c9e5 !important;
+            text-decoration: none;
+            transition: all 0.4s;
+            line-height: normal;
+            border: none;
+        }
+
+        .modal-login .btn:hover,
+        .modal-login .btn:focus {
+            background: #14c9e5 !important;
+            outline: none;
+        }
+
         .slide {
             margin-top: 10px;
         }
@@ -33,89 +128,126 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
-                <ul class="navbar-nav ms-3">
-                    <li class="nav-item"><a class="nav-link" href="depresion.html">¿Que es la Depresión?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactanos.html">Contáctanos</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Solicitudes
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Observaciones</a></li>
-                            <li><a class="dropdown-item" href="#">Test Rendidos</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-3">
-					<li class="nav-item">
-                        <a class="nav-link text-nowrap" href="logintest.html">Iniciar sesión</a>
-                    </li>
-                </ul>
-            </div>
-
+                <div id="MenuNavegacion" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a class="nav-link" href="depresion.html">¿Que es la Depresión?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactanos.html">Contáctanos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Solicitudes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Observaciones</a></li>
+                                <li><a class="dropdown-item" href="#">Test Rendidos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a type="button" class="nav-link text-nowrap" data-bs-toggle="modal"
+                                data-bs-target="#Login">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+        <div class="modal fade" id="Login" aria-hidden="true">
+            <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="avatar">
+                            <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png"
+                                alt="Avatar">
+                        </div>
+                        <h4 class="modal-title">Inicia Sesión Aquí!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="Email" placeholder="Email"
+                                    required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="Password" placeholder="Contraseña"
+                                    required="required">
+                            </div>
+                            <div class="form-group">    
+                                <button type="submit" class="btn btn-primary btn-lg btn-block login-btn"
+                                    onclick='location.href="encuesta.html"'>Iniciar Sesión</button>
+                            </div>
+                            <div class="social-buttons">
+                                <a href="#" class="btn btn-fb ml-3"><i class="fa fa-facebook"></i> Facebook</a>
+                                <a href="#" class="btn btn-gm ml-3"><i class="fa fa-google"></i> Google</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="registro.html">¿No tienes una cuenta?, Registrate ahora!</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://p4.wallpaperbetter.com/wallpaper/31/268/15/sadness-river-boy-pierce-wallpaper-preview.jpg"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>El Inicio: Aislamiento</h5>
-                    <p>El primer indicio de la Depresión</p>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://p4.wallpaperbetter.com/wallpaper/31/268/15/sadness-river-boy-pierce-wallpaper-preview.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Inicio: Aislamiento</h5>
+                        <p>El primer indicio de la Depresión</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://t1.fr.ltmcdn.com/es/posts/2/5/1/frases_de_esperanza_152_orig.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Camino: Never Alone</h5>
+                        <p>Somos la mano amiga que todos necesitan, la luz mas brillante en la noche más oscura.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.theconversation.com/files/350409/original/file-20200730-31-xy8iz1.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>El Proceso: Nuestros Tests</h5>
+                        <p>Encuentra esperanza y acude a nuestras observaciones entregadas en cada test.</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://t1.fr.ltmcdn.com/es/posts/2/5/1/frases_de_esperanza_152_orig.jpg"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>El Camino: Never Alone</h5>
-                    <p>Somos la mano amiga que todos necesitan, la luz mas brillante en la noche más oscura.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.theconversation.com/files/350409/original/file-20200730-31-xy8iz1.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip"
-                    class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>El Proceso: Nuestros Tests</h5>
-                    <p>Encuentra esperanza y acude a nuestras observaciones entregadas en cada test.</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <div class="d-flex justify-content-center mt-3">
-    <button type="button" class="btn btn-success center" onclick="location.href='logintestv2.html'">
-        Realiza Nuestros Tests
-    </button>
-    </div>
+        <div class="d-flex justify-content-center mt-3">
+            <button type="button" class="btn btn-success center" onclick="location.href='logintestv2.html'">
+                Realiza Nuestros Tests
+            </button>
+        </div>
     </div>
     <div class="h4 pb-2 mb-4 border-bottom border-dark m-3 mt-4">
         Nunca estarás solo si confías en nuestro trabajo, prevee antes de lamentar.
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="./login.js"></script>
 </body>
 
 </html>

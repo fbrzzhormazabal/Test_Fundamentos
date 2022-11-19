@@ -1,40 +1,3 @@
-/*const EncuestaForm = document.getElementById('EncuestaForm');
-
-const { remote} = require('electron');
-const main = remote.require('./main');
-
-
-const userNombre = document.getElementById('Nombre');
-const userApellido_p = document.getElementById('Apellido_p');
-const userApellido_m = document.getElementById('Apellido_m');
-const userBirth = document.getElementById('Fecha_nacimiento');
-const userRUN = document.getElementById('Run');
-const userDv = document.getElementById('Dv')
-const userGenero = document.getElementById('Genero');
-const userTelefono = document.getElementById('Telefono');
-const userEmail = document.getElementById('Email');
-const userPass = document.getElementById('Contraseña');
-
-
-RegistroForm.addEventListener('submit',(e) => {
-    e.preventDefault();
-
-    const newUser = {
-        Names: userNombre.value,
-        Father_Name: userApellido_p.value,
-        Mother_Name: userApellido_m.value,
-        Birthday: userBirth.value,
-        RUN: userRUN.value,
-        Gender: userGenero.value,
-        Telefono: userTelefono.value,
-        Email: userEmail.value,
-        Password: userPass.value,   
-        Dv: userDv.value
-    }
-    main.createUser(newUser)
-})
-*/
-
 function resultado() {
     var p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, nota;
 
@@ -143,7 +106,7 @@ function resultado() {
     if (nota > 4) {
         alert(" usted posiblemente tiene depresion")
     } else {
-        alert(" usted posiblemten no tenga depresion")
+        alert(" usted posibelmente no tenga depresion")
     }
     alert(" Puntos totales :" + nota);
     window.location = 'encuesta.html'
