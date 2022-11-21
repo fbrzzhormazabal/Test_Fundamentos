@@ -1,6 +1,5 @@
 function resultado() {
     var p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, nota;
-
     // 1a pregunta
     if (document.getElementById('q1_r1').checked==true) {
         p1=1
@@ -104,11 +103,12 @@ function resultado() {
 
     nota=p1+p2+p3+p4+p5+p6+p7+p8+p9+p10;
     if (nota > 4) {
-        alert(" usted posiblemente tiene depresion")
+        alert(" usted probablemente tenga depresion ")
     } else {
-        alert(" usted posibelmente no tenga depresion")
+        alert(" usted probablemente no tenga depresion ")
     }
+   
     alert(" Puntos totales :" + nota);
     window.location = 'encuesta.html'
-    location.href= 'index.html'
+    location.href= 'resultados.html'   
 }
