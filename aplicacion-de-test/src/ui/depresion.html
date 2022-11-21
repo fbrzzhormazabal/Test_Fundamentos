@@ -29,18 +29,127 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Observaciones</a></li>
-                                <li><a class="dropdown-item" href="#">Test Rendidos</a></li>
+                                <li><a class="dropdown-item" href="selector.html">Test Disponibles</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-3">
                         <li class="nav-item">
-                            <a class="nav-link text-nowrap" href="logintest.html">Iniciar sesión</a>
+                            <a class="nav-link text-nowrap" href="index.html">Cerrar sesión</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <div class="modal fade" id="Login" aria-hidden="true">
+            <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="avatar">
+                            <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png"
+                                alt="Avatar">
+                        </div>
+                        <h4 class="modal-title">Inicia Sesión Aquí!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="Email" placeholder="Email"
+                                    required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="Password" placeholder="Contraseña"
+                                    required="required">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block login-btn"
+                                    onclick='location.href="encuesta.html"'>Iniciar Sesión</button>
+                            </div>
+                            <div class="social-buttons">
+                                <a href="#" class="btn btn-fb ml-3"><i class="fa fa-facebook"></i> Facebook</a>
+                                <a href="#" class="btn btn-gm ml-3"><i class="fa fa-google"></i> Google</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="registro.html">¿No tienes una cuenta?, Registrate ahora!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <h3> ¿Que es la Depresión? </h3>
+            <hr>
+            <div class="col-9">
+                <p>
+                    La depresión es un trastorno mental caracterizado fundamentalmente por un bajo estado de ánimo y
+                    sentimientos de tristeza, asociados a alteraciones del comportamiento, del grado de actividad y del
+                    pensamiento.
+
+                    Supone una de las patologías más frecuentes en Atención Primaria y es la primera causa de atención
+                    psiquiátrica y de discapacidad derivada de problemas mentales.
+
+                    Aparece con más frecuencia en mujeres y en personas menores de 45 años.
+
+                    El tratamiento con psicofármacos y/o psicoterapia, consiguen, en la mayoría de los casos, aliviar
+                    parcialmente o en su totalidad los síntomas. Una vez se han superado los síntomas de la depresión,
+                    convendrá seguir bajo tratamiento antidepresivo el tiempo necesario para evitar posibles recaídas.
+                    En algunos casos, el tratamiento deberá prolongarse de por vida.
+                </p>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <h3> Principales Síntomas </h3>
+            <hr>
+            <div class="col-9">
+                <p>
+
+                    Los síntomas nucleares de la depresión son la tristeza patológica, la pérdida de interés y de la
+                    capacidad de disfrutar y una disminución de la vitalidad que limita el nivel de actividad y produce
+                    un cansancio exagerado, que aparece incluso después de realizar pequeños esfuerzos.
+
+                    Además, pueden aparecer otros síntomas, como los sentimientos de culpa o de incapacidad, la
+                    irritabilidad, el pesimismo ante el futuro, las ideas de muerte o de suicidio, la pérdida de
+                    confianza en uno mismo o en los demás, la disminución de la concentración y la memoria, la
+                    intranquilidad, los trastornos del sueño y la disminución del apetito y de la libido, entre otros.
+
+                    Así que en síntesis, para lograr detectar indicios de depresión debe analizar los siguientes
+                    síntomas:
+                    <li>Tristeza Patológica</li>
+                    <li>Pérdida de Interés</li>
+                    <li>Disminución de Vitalidad</li>
+                    <li>Cansancio Exagerada</li>
+                </p>
+            </div>
+        </div>
+        
+        <div class="container mt-4">
+            <h3> ¿Cómo hago tratamiento de la depresión? </h3>
+            <hr>
+            <div class="col-9">
+                <p>
+                    El tratamiento ideal de la depresión dependerá de las características específicas del subtipo de
+                    depresión y será, como siempre, personalizado, por lo que es fundamental una adecuada relación
+                    médico-paciente. Básicamente, el tratamiento se compone de psicoterapia y farmacoterapia.
+
+                    Con la psicoterapia, se ofrece seguridad, confianza, comprensión y apoyo emocional; se intentan
+                    corregir los pensamientos distorsionados; se explica el carácter temporal y se desdramatiza la
+                    situación; se consigue la participación del paciente en el proceso curativo y, por último, se enseña
+                    a prever las posibles recaídas.
+
+                    Como tratamiento farmacológico se utilizan antidepresivos, ansiolíticos y otros fármacos
+                    coadyuvantes, como las hormonas tiroideas, el carbonato de litio o psicoestimulantes.
+
+                    Por último, el tratamiento electroconvulsivo, que se realiza en algunas circunstancias (depresión
+                    mayor grave del adulto, depresión resistente), bajo control anestésico y miorrelajación. Es una
+                    técnica segura y sus efectos secundarios sobre la memoria son habitualmente leves y transitorios.
+                    Por razones operativas, económicas y socio-culturales se reserva a indicaciones muy concretas.
+                </p>
+            </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
             crossorigin="anonymous"></script>

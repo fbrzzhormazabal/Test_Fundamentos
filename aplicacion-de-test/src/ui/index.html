@@ -80,6 +80,9 @@
             box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
         }
 
+        .carousel-caption h5{
+            color: rgba(255, 255, 255, 0.719);
+        }
         .modal-login .avatar img {
             width: 100%;
         }
@@ -138,7 +141,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Observaciones</a></li>
-                                <li><a class="dropdown-item" href="#">Test Rendidos</a></li>
+                                <li><a class="dropdown-item" data-bs-toggle="modal"
+                                    data-bs-target="#Login">Test Disponibles</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -174,7 +178,7 @@
                             </div>
                             <div class="form-group">    
                                 <button type="submit" class="btn btn-primary btn-lg btn-block login-btn"
-                                    onclick='location.href="encuesta.html"'>Iniciar Sesión</button>
+                                    onclick='location.href="selector.html"'>Iniciar Sesión</button>
                             </div>
                             <div class="social-buttons">
                                 <a href="#" class="btn btn-fb ml-3"><i class="fa fa-facebook"></i> Facebook</a>
@@ -236,7 +240,8 @@
             </button>
         </div>
         <div class="d-flex justify-content-center mt-3">
-            <button type="button" class="btn btn-success center" onclick="location.href='logintestv2.html'">
+            <button type="button" class="btn btn-success center" data-bs-toggle="modal"
+            data-bs-target="#Login">
                 Realiza Nuestros Tests
             </button>
         </div>
