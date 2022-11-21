@@ -103,12 +103,14 @@ function resultado() {
 
     nota=p1+p2+p3+p4+p5+p6+p7+p8+p9+p10;
     if (nota > 4) {
-        alert(" usted probablemente tenga depresion ")
-    } else {
-        alert(" usted probablemente no tenga depresion ")
+        alert("Observación: Tiene altas probabilidades de tener depresión, porfavor acuda a un profesional.")
+    } else if(nota==0){
+        alert("Observación: Usted no tiene indicios de depresión")
+    }else{
+        alert("Observación: Tiene indicios de depresión, acuda con un profesional.")
     }
-   
+
     alert(" Puntos totales :" + nota);
     window.location = 'encuesta.html'
-    location.href= 'resultados.html'   
+    location.href= 'index.html'   
 }
